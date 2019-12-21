@@ -1,0 +1,75 @@
+/* =================================
+    Base Element Styles
+   ================================= */ 
+
+   * {
+       box-sizing: border-box;
+   }
+
+   html {
+       font-size: 18px;
+   }
+
+   body {
+       font-family: 'Titillium Web', sans-serif;
+       background-color: #ededed;
+       text-align: center;
+   }
+
+   img {
+       width: 90%;
+       aspect-ratio: 16/9;
+   }
+
+   h3 {
+       margin-top: 0;
+       margin-bottom: 40px;
+   }
+
+/* =================================
+    Nav Style
+   ================================= */ 
+   nav ul {
+       padding: 0;
+   }
+  
+   nav li {
+       list-style-type: none; 
+       margin: 6px 16px;
+       padding-top: 14px;
+       padding-bottom: 14px;
+       display: block;
+       background-color: white;
+   }
+
+   nav a {
+       text-decoration: none;
+       color: black;
+       font-weight: bolder;
+       font-size: 1.2rem;
+   }
+
+/* =================================
+    Class Styles
+   ================================= */ 
+
+   .name {
+       font-family: 'Fredoka One', cursive;
+       font-weight: 900;
+       font-size: 3rem;
+       letter-spacing: 1mm;
+   }
+
+   .new_section {
+       font-size: 2rem;
+       color: tomato;
+   }
+
+   .description {
+       margin: auto;
+   }
+
+   .container {
+       background-color: white;
+       padding: 40px 0;
+   }
