@@ -22,9 +22,9 @@
         </nav>
     </header>
     <main>
-        <section class="bio">
-            <img id="profile_img" src="images/responsive-layout-profile.png" alt="Picture of Eric">
-            <p>
+        <section class="bio clearfix">
+            <img id="profile_img" class="clearfix" src="images/responsive-layout-profile.png" alt="Picture of Eric">
+            <p class="bio">
                 Short Bio. Short Bio. Short Bio. Short Bio. 
                 Short Bio. Short Bio. Short Bio. Short Bio. 
                 Short Bio. Short Bio. Short Bio. Short Bio. 
@@ -32,95 +32,113 @@
             </p>
         </section>
         <div class="primary_content">
-            <section class="portfolio">
+            <section class="portfolio clearfix">
 
-                <h3 id="portfolio">Portfolio</h3>
+                <h2 id="portfolio">Portfolio</h2>
 
                 <section class="marketing card">
                     <img id="marketing_img" src="images/portfolio-1.png" alt="Marketing Card">
-                    <h2>Marketing Page</h2>
-                    <p class="description">
-                        Marketing Card Desciption. Marketing Card Desciption.
-                        Marketing Card Desciption. Marketing Card Desciption.
-                    </p>
+                    <div class="container">
+                        <h3>Marketing Page</h3>
+                        <p class="description">
+                            This project shows the front page of a marketing website
+                            meant for a specific business I'm interested in.
+                        </p>
+                    </div>
                 </section>
 
                 <section class="search card">
                     <img id="search_img" src="images/portfolio-2.png" alt="Search Card">
-                    <h2>Search Page</h2>
-                    <p class="description">
-                        Search Card Description. Search Card Description. 
-                        Search Card Description. Search Card Description. 
-                    </p>
+                    <div class="container">
+                        <h3>Search Page</h3>
+                        <p class="description">
+                            This project searches through a specific database to find
+                            information that the user is trying to look up.
+                        </p>
+                    </div>
                 </section>
 
                 <section class="travel_app card">
                     <img id="travel_img" src="images/portfolio-3.png" alt="Travel App">
-                    <h2>Travel App</h2>
-                    <p class="description">
-                        Travel App Description. Travel App Description. 
-                        Travel App Description. Travel App Description. 
-                    </p>
+                    <div class="container">
+                        <h3>Travel App</h3>
+                        <p class="description">
+                            This project copmares travel times based on different
+                            transportation methods and tells you the best one.
+                        </p>
+                    </div>
                 </section>
                 
                 <section class="map card">
                     <img class="map_img" src="images/portfolio-4.png" alt="Map of Favorite Spots">
-                    <h2>Map of Favorite Spots</h2>
-                    <p class="description">
-                        Map Description. Map Description. 
-                        Map Description. Map Description. 
-                    </p>
+                    <div class="container">
+                        <h3>Map of Favorite Spots</h3>
+                        <p class="description">
+                            This project uses mapping apis to plot points for my favorite
+                            spots in the city for a do-it-yourself walking tour.
+                        </p>
+                    </div>
                 </section>
 
                 <section class="gallery card">
                     <img id="gallery_img" src="images/portfolio-5.png" alt="Photo Gallery">
-                    <h2>Photo Gallery</h2>
-                    <p class="description">
-                        Photo Gallery Description. Photo Gallery Description. 
-                        Photo Gallery Description. Photo Gallery Description. 
-                    </p>
+                    <div class="container">
+                        <h3>Photo Gallery</h3>
+                        <p class="description">
+                            This project show spictures from a recent trip to the viewer
+                            and allows them to easily navigate through photos.
+                        </p>
+                    </div>
                 </section>
 
                 <section class="calculator card">
                     <img id="calculator_img" src="images/portfolio-6.png" alt="Calculator">
-                    <h2>Calculator</h2>
-                    <p class="description">
-                        Calculator Description. Calculator Description. 
-                        Calculator Description. Calculator Description. 
-                    </p>
+                    <div class="container">
+                        <h3>Calculator</h3>
+                        <p class="description">
+                            Someone can enter in the numbers they want, and press the big 
+                            blue button and get the result.
+                        </p>
+                    </div>
                 </section>
             </section>
             <section class="interests">
-                <h3 id="interests">Interests</h3>
+                <h2 id="interests">Interests</h2>
                 <section class="hiking card">
                     <img id="hiking_img" src="images/hiking.jpg" alt="Hiking Picture">
-                    <h2>Hiking</h2>
-                    <p class="description">
-                        Hiking Description. Hiking Description. 
-                        Hiking Description. Hiking Description. 
-                    </p>
+                    <div class="container">
+                        <h3>Hiking</h3>
+                        <p class="description">
+                            Hiking Description. Hiking Description. 
+                            Hiking Description. Hiking Description. 
+                        </p>
+                    </div>
                 </section>
 
                 <section class="video_games card">
                     <img id="video_games_img" src="images/video_games.jpg" alt="Video Games Picture">
-                    <h2>Video Games</h2>
-                    <p class="description">
-                    Video Games Description. Video Games Description. 
-                    Video Games Description. Video Games Description. 
-                    </p>
+                    <div class="container">
+                        <h3>Video Games</h3>
+                        <p class="description">
+                            Video Games Description. Video Games Description. 
+                            Video Games Description. Video Games Description. 
+                        </p>
+                    </div>
                 </section>
                 <section class="music card">
                     <img id="music_img" src="images/music.jpg" alt="Music Picture">
-                    <h2>Music</h2>
-                    <p class="description">
-                        Music Description. Music Description. 
-                        Music Description. Music Description. 
-                    </p>
+                    <div class="container">
+                        <h3>Music</h3>
+                        <p class="description">
+                            Music Description. Music Description. 
+                            Music Description. Music Description. 
+                        </p>
+                    </div>
                 </section>
             </div>
         </section>
         <section class="contact">
-            <h3 id="contact">Contact</h3>
+            <h2 id="contact">Contact</h2>
             <p class="description">
                 Contact Description. Contact Description. 
                 Contact Description. Contact Description. 
@@ -130,8 +148,8 @@
         </section>
     </main>
     <footer>
-        <span>Eric Klein</span>
-        <a class="back_to_top" href="#home">Back to top</a>
+        <span class="clearfix">Eric Klein</span>
+        <a class="back_to_top clearfix" href="#home">Back to top</a>
     </footer>
 </body>
 </html>
