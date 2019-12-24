@@ -3,162 +3,177 @@
    ================================= */ 
 
    * {
-       box-sizing: border-box;
-    }
-
-   html {
-       font-size: 18px;
+        box-sizing: border-box;
     }
 
    body {
-       font-family: 'Titillium Web', sans-serif;
-       background-color: #f5f3f3;
-       text-align: center;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 18px;
+        line-height: 1.3em;
+        text-align: center;
+        margin: 0 auto;
     }
 
-   img {
-       width: 90%;
-    }
-
-   h3 {
-       margin: 0;
-       padding: auto 0;
-    }
-
-   .name {
-        font-family: 'Fredoka One', cursive;
-        font-weight: 900;
-        font-size: 2rem;
-        letter-spacing: 1mm;
-    }
-
-/* =================================
-    Nav Style
-   ================================= */ 
-   nav ul {
-       padding: 0;
-    }
-  
-   nav li {
-       list-style-type: none; 
-       margin: 6px 16px;
-       padding-top: 14px;
-       padding-bottom: 14px;
-       display: block;
-       background-color: white;
-    }
-
-   nav a {
-       text-decoration: none;
-       color: black;
-       font-weight: bolder;
-       font-size: 1.2rem;
-    }
-/* =================================
-    Primary Content Styles
-   ================================= */ 
-
-   .primary_content {
-        background-color: white;
-        margin-top: 40px;
-        padding-bottom: 20px;
-    }
-
-    .primary_content h2 {
-        margin: 0;
-        margin-bottom: 40px;
-        padding-top: 40px;
-        font-size: 2rem;
+    h1 {
+        margin-top: 0;
+        padding: 1em;
+        font-family: "Fredoka One", cursive;
         color: tomato;
+    }
+
+    h2 {
+        padding: 1.5em;       
+        font-weight: bolder;
+    }
+
+    h3 {
+        padding: 0.5em;
+        font-size: 1.3em;
+        font-weight: 900;
+    }
+
+   
+
+    p {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 2em;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    .home h2 {
+        color: tomato;
+    }
+
+    .portfolio h2 {
+        color: rgb(131, 206, 236);
+    }
+
+    .interests h2 {
+        color: rgb(131, 236, 136);
+    }
+
+    .contact h2 {
+        color: tomato;
+    }
+/* =================================
+    Header Styles
+   ================================= */ 
+
+    header {
+        background-color: #f5f3f3;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .heading {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .bio {
+        padding: 3em 0;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 1.2em;
+    }
+
+    #profile_img {
+        width: 60%;
+        padding-bottom: 1.5em ;
+    }
+
+/* =================================
+    Main Nav Styles
+   ================================= */ 
+
+    .main_nav a {
+        display: inline-block;
+        width: 90%;
+        background-color: #fff;
+        padding: 0.6em 0;
+        margin-bottom: 5px;
+        border-radius: 4px;
+    }
+
+    nav a {
+        font-weight: bolder;
+    }
+
+    .home_link {
+        color: tomato;
+    }
+
+    .portfolio_link {
+        color: rgb(131, 206, 236);
+    }
+
+    .interests_link {
+        color: rgb(131, 236, 136);
     }
 
 /* =================================
     Card Styles
    ================================= */ 
-    .card {
-        margin: 40px 0;
-    }
-    
-    .card h3 {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
 
-    .description {
+    .card p {
         width: 80%;
-        margin: auto;
     }
 
-    .bio p {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .interests {
-        border-top: 2px solid #f5f3f3;
-    }
-
-    .portfolio div,
-    .interests div {
-        margin-top: 30px;
-        margin-bottom: 40px;
-    }
-
-/* =================================
-    Contact Styles
-   ================================= */ 
-
-    .contact h2 {
-       padding: 30px 0;
-    }
-
-    .contact .description {
-       width: 90%;
-    }
-
-    .phone span,
-    .email span {
-       margin-left: 20px;
-       font-weight: bold;
-    }
- 
 /* =================================
     Footer Styles
    ================================= */ 
 
-   footer {
-       border-top: 1px rgba(201, 197, 197, 0.555) solid;
-       margin: 20px 0;
+    .contact .info {
+        padding-bottom: 1em;
     }
 
-   footer a,
-   footer span {
-       text-decoration: none;
-       color: black;
-       font-weight: 900;
+    #contact {
+        padding-bottom: 2em;
     }
 
-   footer a {
-       float: right;
-       margin-right: 5%;
-       margin-top: 24px;
-       margin-bottom: 24px;
-    }
-   
-   footer span {
-       float: left;
-       margin-left: 5%;
-       margin-top: 24px;
-       margin-bottom: 24px;
+    span {
+        font-weight: bold;
+        margin-left: 12px;
     }
 
- 
-/* =================================
-    Media Queries
-   ================================= */ 
+    footer {
+        background-color: #f5f3f3;
+    }
 
-   @media (min-width: 768px) {
+    .main_footer {
+        width: 90%;
+        border-top: 1px solid rgb(204, 198, 198);
+        margin: 0 auto;
+    }
+
+    .bottom_links {
+        display: inline-block;
+        padding-top: 1em;
+    }
+
+    .name {
+        float: left;
+    }
+
+    .back_to_top {
+        float: right;
+        padding: 0.5em;
+        margin-top: 0.5em;
+        border-radius: 4px;
+    }
+
+    .footer_nav {
+        display: none;
+    }
 
     .clearfix::after {
         content: "";
@@ -166,34 +181,100 @@
         display: table;
       }
 
-       nav ul li {
-           display: inline-block;
-           background-color: #f5f3f3;
-       }
+/* =================================
+    Media Queries
+   ================================= */ 
 
-       .bio p {
-           width: 50%;
-           float: left;
-           padding-left: 2%;
-           padding-right: 2%;
-       }
+   @media (min-width: 767px) {
 
-       #profile_img {
-           width: 50%;
-           float: right;
-       }
-
-       .marketing,
-       .travel_app,
-       .gallery {
-           float: left;
-           width: 50%;
-       } 
-       
-       .search,
-       .map,
-       .calculator {
-           float: right;
-           width: 50%;
-       }
+    .main_nav a {
+        display: inline;
+        background-color: #f5f3f3;
+        padding: 0.5em 1em;
     }
+
+    #profile_img {
+        width: 40%;
+        float: right;
+    }
+
+    .bio_text {
+        width: 60%;
+        float: left;
+        text-align: left;
+        padding-right: 1em;
+    }
+
+    .card {
+        width: 50%;
+        float: left;
+        padding: 1em;
+    }
+
+    .card h3 {
+        padding: 0;
+    }
+
+    #contact {
+        width: 70%;
+        margin: 0 auto;
+        padding: 0 0 2em 0;
+    }
+
+    .back_to_top {
+        display: none;
+    }
+
+    .footer_nav {
+        display: inline-block;
+        float: right;
+        padding: 0.5em;
+        margin: 0.5em;
+    }
+
+    .footer_nav a {
+        padding: 0.5em;
+    }
+
+}
+
+@media (min-width: 1023px) {
+
+    h1 {
+        float: left;
+        padding-right: 0;
+    }
+
+    .main_nav {
+        float: right;
+        margin-top: 2em;
+    }
+
+    .heading,
+    .bio {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .bio {
+        padding-top: 0;
+    }
+
+    .portfolio,
+    .interests {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .card {
+        width: 33%;
+        padding: 0 0 1em 0;
+    }
+
+    .contact_info {
+        width: 60%;
+    }
+}
+
+
+

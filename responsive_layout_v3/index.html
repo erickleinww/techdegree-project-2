@@ -1,155 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eric Klein's Portfolio</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Titillium+Web&display=swap" rel="stylesheet">
-
-</head>
-<body>
-    <header>
-        <h1 id="home" class="name">Eric Klein</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#interests">Interests</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="bio clearfix">
-            <img id="profile_img" class="clearfix" src="images/responsive-layout-profile.png" alt="Picture of Eric">
-            <p class="bio">
-                Short Bio. Short Bio. Short Bio. Short Bio. 
-                Short Bio. Short Bio. Short Bio. Short Bio. 
-                Short Bio. Short Bio. Short Bio. Short Bio. 
-                Short Bio. Short Bio. Short Bio. Short Bio. 
-            </p>
-        </section>
-        <div class="primary_content">
-            <section class="portfolio clearfix">
-
-                <h2 id="portfolio">Portfolio</h2>
-
-                <section class="marketing card">
-                    <img id="marketing_img" src="images/portfolio-1.png" alt="Marketing Card">
-                    <div class="container">
-                        <h3>Marketing Page</h3>
-                        <p class="description">
-                            This project shows the front page of a marketing website
-                            meant for a specific business I'm interested in.
-                        </p>
-                    </div>
-                </section>
-
-                <section class="search card">
-                    <img id="search_img" src="images/portfolio-2.png" alt="Search Card">
-                    <div class="container">
-                        <h3>Search Page</h3>
-                        <p class="description">
-                            This project searches through a specific database to find
-                            information that the user is trying to look up.
-                        </p>
-                    </div>
-                </section>
-
-                <section class="travel_app card">
-                    <img id="travel_img" src="images/portfolio-3.png" alt="Travel App">
-                    <div class="container">
-                        <h3>Travel App</h3>
-                        <p class="description">
-                            This project copmares travel times based on different
-                            transportation methods and tells you the best one.
-                        </p>
-                    </div>
-                </section>
-                
-                <section class="map card">
-                    <img class="map_img" src="images/portfolio-4.png" alt="Map of Favorite Spots">
-                    <div class="container">
-                        <h3>Map of Favorite Spots</h3>
-                        <p class="description">
-                            This project uses mapping apis to plot points for my favorite
-                            spots in the city for a do-it-yourself walking tour.
-                        </p>
-                    </div>
-                </section>
-
-                <section class="gallery card">
-                    <img id="gallery_img" src="images/portfolio-5.png" alt="Photo Gallery">
-                    <div class="container">
-                        <h3>Photo Gallery</h3>
-                        <p class="description">
-                            This project show spictures from a recent trip to the viewer
-                            and allows them to easily navigate through photos.
-                        </p>
-                    </div>
-                </section>
-
-                <section class="calculator card">
-                    <img id="calculator_img" src="images/portfolio-6.png" alt="Calculator">
-                    <div class="container">
-                        <h3>Calculator</h3>
-                        <p class="description">
-                            Someone can enter in the numbers they want, and press the big 
-                            blue button and get the result.
-                        </p>
-                    </div>
-                </section>
-            </section>
-            <section class="interests">
-                <h2 id="interests">Interests</h2>
-                <section class="hiking card">
-                    <img id="hiking_img" src="images/hiking.jpg" alt="Hiking Picture">
-                    <div class="container">
-                        <h3>Hiking</h3>
-                        <p class="description">
-                            Hiking Description. Hiking Description. 
-                            Hiking Description. Hiking Description. 
-                        </p>
-                    </div>
-                </section>
-
-                <section class="video_games card">
-                    <img id="video_games_img" src="images/video_games.jpg" alt="Video Games Picture">
-                    <div class="container">
-                        <h3>Video Games</h3>
-                        <p class="description">
-                            Video Games Description. Video Games Description. 
-                            Video Games Description. Video Games Description. 
-                        </p>
-                    </div>
-                </section>
-                <section class="music card">
-                    <img id="music_img" src="images/music.jpg" alt="Music Picture">
-                    <div class="container">
-                        <h3>Music</h3>
-                        <p class="description">
-                            Music Description. Music Description. 
-                            Music Description. Music Description. 
-                        </p>
-                    </div>
-                </section>
+    <head>
+        <title>Eric Klein's Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Titillium+Web&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="main_header">
+            <div class="heading clearfix">
+                <h1>Eric Klein</h1>
+                <nav class="main_nav">
+                    <a class="home_link" href="index.html">Home</a>
+                    <a class="portfolio_link" href="#portfolio">Portfolio</a>
+                    <a class="interests_link" href="#interests">Interests</a>
+                    <a class="contact_link" href="#contact">Contact</a>
+                </nav>
             </div>
+            <div class="bio clearfix">
+                <img id="profile_img" src="images/profile_picture.jpg" alt="Picture of Eric">
+                <p class="bio_text">Hi! I'm a Front-End Developer in training pursueing the Front-End TechDegree at Treehouse. I'm excited to learn all about HTML, CSS, and JavaScript and can't wait to build up my portfolio!</p>
+            </div>
+        </header>
+        <main class="portfolio clearfix">
+            <h2 id="portfolio">Portfolio</h2>
+            <section class="card">
+                <img id="marketing_img" src="images/portfolio-1.png" alt="Marketing Card">
+                <h3>Marketing Page</h3>
+                <p>This project shows the front page of a marketing websitemeant for a specific business I'm interested in.</p>
+            </section>
+            <section class="card">
+                <img id="search_img" src="images/portfolio-2.png" alt="Search Card">
+                <h3>Search Page</h3>
+                <p>This project searches through a specific database to findinformation that the user is trying to look up.</p>
+            </section>
+            <section class="card">
+                <img id="travel_img" src="images/portfolio-3.png" alt="Travel App">
+                <h3>Travel App</h3>
+                <p>This project copmares travel times based on differenttransportation methods and tells you the best one.</p>
+            </section>
+            <section class="card">
+                <img class="map_img" src="images/portfolio-4.png" alt="Map of Favorite Spots">
+                <h3>Map of Favorite Spots</h3>
+                <p>This project uses mapping apis to plot points for my favoritespots in the city for a do-it-yourself walking tour.</p>
+            </section>
+            <section class="gallery card left">
+                <img id="gallery_img" src="images/portfolio-5.png" alt="Photo Gallery">
+                <h3>Photo Gallery</h3>
+                <p>This project show spictures from a recent trip to the viewerand allows them to easily navigate through photos.</p>
+            </section>
+            <section class="calculator card right">
+                <img id="calculator_img" src="images/portfolio-6.png" alt="Calculator">
+                <h3>Calculator</h3>
+                <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+            </section>
+        </main>
+        <section class="interests clearfix">
+            <h2 id="interests">Interests</h2>
+            <section class="card">
+                <img class="interests_img" src="images/hiking.jpg" alt="Hiking Picture">
+                <h3>Hiking</h3>
+                <p>I love to hike. Being surrounded by nothing but nature helps me destress and it gives me an excues to exercise. Also feeling you get after summiting a mountain is unlike anything else.  </p>
+            </section>
+            <section class="card">
+                <img class="interests_img" src="images/video_games.jpg" alt="Video Games Picture">
+                <h3>Video Games</h3>
+                <p>Video Games have always been a part of my life. I love playing games with my friends during my freetime.</p>
+            </section>
+            <section class="card">
+                <img class="interests_img" src="images/music.jpg" alt="Music Picture">
+                <h3>Music</h3>
+                <p>I'm always listening to music. Whether it be rock, rap, or indie, I always love finding new music I enjoy</p>
+            </section>
         </section>
-        <section class="contact">
-            <h2 id="contact">Contact</h2>
-            <p class="description">
-                Contact Description. Contact Description. 
-                Contact Description. Contact Description. 
-            </p>
-            <p class="phone">Phone<span>+1 (111) 555-1234</span></p>
-            <p class="email">Email<span>email@yoursite.com</span></p>
-        </section>
-    </main>
-    <footer>
-        <span class="clearfix">Eric Klein</span>
-        <a class="back_to_top clearfix" href="#home">Back to top</a>
-    </footer>
-</body>
+        <footer>
+            <section id="contact">
+                <h2>Contact</h2>
+                <p class="contact_info">Contact Description. Contact Description. Contact Description. Contact Description. </p>
+                <p class="contact_info">Phone <span>+1 (111) 555-1234</span></p>
+                <p class="contact_info">Email <span>email@yoursite.com</span></p>
+            </section>
+            <div class="main_footer clearfix">
+                <p class="bottom_links name">Eric Klein</p>
+                <p class="bottom_links back_to_top">Back to Top </p>
+                <nav class="footer_nav">
+                    <a class="home_link" href="#">Home</a>
+                    <a class="portfolio_link" href="#portfolio">Portfolio</a>
+                    <a class="interests_link" href="#interests">Interests</a>
+                    <a class="contact_link" href="#contact">Contact</a>
+                </nav>
+            </div>
+        </footer>
+    </body>
 </html>
