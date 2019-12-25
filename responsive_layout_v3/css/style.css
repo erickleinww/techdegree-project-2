@@ -185,7 +185,7 @@
     Media Queries
    ================================= */ 
 
-   @media (min-width: 767px) {
+   @media (min-width: 768px) {
 
     .main_nav a {
         display: inline;
@@ -238,7 +238,7 @@
 
 }
 
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
 
     h1 {
         float: left;
